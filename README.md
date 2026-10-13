@@ -2,7 +2,11 @@
 
 A comprehensive web-based platform that helps students prepare for campus placements using AI-powered tools — including aptitude and technical practice tests, coding challenges, mock interviews, resume analysis, and personalized learning recommendations.
 
+<<<<<<< HEAD
 Fully implemented: auto-creates its SQLite tables and seeds demo content on first run. Run `python app.py` to start.
+=======
+> **Note:** The project skeleton (directory structure, blueprints, templates, and models) is in place. Source files are currently stubs and are being implemented incrementally.
+>>>>>>> f09361001880439e02b4f99e98d1dff6a5b8608d
 
 ## ✨ Features
 
@@ -151,6 +155,7 @@ pytest tests/ -v
 - **Student:** register through the public registration page (`/register`)
 
 ## 📌 Roadmap
+<<<<<<< HEAD
 - [x] Backend routes & API endpoints
 - [x] Database schema & models implementation
 - [x] AI module integrations
@@ -158,6 +163,13 @@ pytest tests/ -v
 - [x] Test suites & CI
 - [ ] Optional: connect AI modules to an external LLM API for richer feedback
 - [ ] Optional: expand question bank & coding judge with more test cases
+=======
+- [ ] Backend routes & API endpoints
+- [ ] Database schema & models implementation
+- [ ] AI module integrations
+- [ ] UI templates & styling
+- [ ] Test suites & CI
+>>>>>>> f09361001880439e02b4f99e98d1dff6a5b8608d
 
 ## 🤝 Contributing
 1. Fork the repository
